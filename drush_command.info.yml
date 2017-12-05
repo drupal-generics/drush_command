@@ -1,0 +1,5 @@
+name: Drush Command
+type: module
+description: Defines Drush command plugin.
+package: Custom
+core: 8.x

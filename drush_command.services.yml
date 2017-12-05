@@ -1,0 +1,6 @@
+services:
+  plugin.manager.drush_command.command:
+    class: Drupal\drush_command\DrushCommandPluginManager
+    parent: default_plugin_manager
+  drush_command.command_builder:
+    class: Drupal\drush_command\Drush\CommandBuilder
